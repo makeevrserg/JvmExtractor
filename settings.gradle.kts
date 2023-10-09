@@ -43,4 +43,4 @@ enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
 rootProject.name = "JvmExtractor"
 
-include("unzipper")
+include("extractor")
