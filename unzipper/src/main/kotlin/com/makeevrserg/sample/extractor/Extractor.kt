@@ -1,10 +1,10 @@
 package com.makeevrserg.sample.extractor
 
 import com.makeevrserg.sample.jvm.JvmExtractor
-import java.io.File
 import okio.FileSystem
 import okio.Path.Companion.toOkioPath
 import unzip
+import java.io.File
 
 sealed class Extractor(val name: String) {
     abstract fun extract(zipFile: File, zipOutputFolder: File)

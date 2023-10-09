@@ -40,7 +40,7 @@ fun FileSystem.unzip(sourceZipFile: Path, targetDir: Path, mustCreate: Boolean =
         if (zipFilesystem.isDirectory(path)) {
             createDirectories(targetDirFull / pathName)
         } else {
-            zipFilesystem.copyFileToFileSystem(path, this,targetDirFull / pathName)
+            zipFilesystem.copyFileToFileSystem(path, this, targetDirFull / pathName)
         }
     }
 }

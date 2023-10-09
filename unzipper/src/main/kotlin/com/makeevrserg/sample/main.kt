@@ -1,3 +1,5 @@
+@file:Suppress("Filename")
+
 package com.makeevrserg.sample
 
 import com.makeevrserg.sample.extractor.Extractor
