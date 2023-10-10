@@ -10,5 +10,6 @@ const val ZIP_OUTPUT_PATH = "./root"
 Run in bash
 
 ```bash
+chmod +x gradlew
 ./gradlew run
 ```
